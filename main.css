@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.joc{
+    font-size: 1.5em;
+    color: rgb(47, 184, 175);
+    font-weight: 600;
+    margin-top: 3em;
+}
+
+.hassle{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(205, 220, 129);
+    margin-top: 1.25em;
+}
+
+.desc{
+    font-size: 1em;
+    color: rgb(190, 195, 204);
+    line-height: 1.5em;
+    margin-top: 1.87em;
+    
+}
+
+.d1{
+    height: 55vh;
+    width: 50vw;
+    background-color:rgb(43, 179, 177) ;
+    position: absolute;
+    bottom: 0px;
+    color: rgb(148, 225, 225);
+    padding: 2.5em;
+    font-size: 1.2em;
+
+    
+}
+
+.d2{
+    float: right;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 55vh;
+    width: 50vw;
+    background-color:rgb(75, 189, 189);
+    line-height: 1.3em;
+    padding: 2.5em;
+    color: rgb(148, 225, 225);
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+.bill{
+    color: whitesmoke;
+    font-size: 2em;
+    padding-right: 1em;
+    
+    
+}
+
+.why{
+    color: whitesmoke;
+    font-size: 1.5em;
+}
+
+.mon{
+      font-size: 1.5em;
+      color: whitesmoke;
+      padding-bottom: 0.9em;
+}
+
+.s1{
+    padding-left: 2.5em;
+}
+
+.but{
+    border: 1px solid transparent;
+    padding: 0.75em 7.37em;
+    background-color: rgb(191, 223, 50);
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-top: 2.68em;
+}
+
+.full{
+    margin-top: 10px;
+}
+
+@media screen and (max-width:768px){
+
+    .d1{
+        width: 100%;
+        display: block;
+        
+        
+    }
+
+    .d2{
+        display:block;
+        width: 100vw;
+        float: left;
+        position: absolute;
+        bottom: -18.68em;
+        
+    }
+    
+}
+
+@media screen and (max-width:500px){
+    .joc{
+        margin-top: 1.5em;
+    }
+
+    .s1{
+        
+        padding-right: 1em;
+        
+    }
+    
+    .mon{
+        font-size: 1.3em;
+    }
+    
+    
+    
+}
